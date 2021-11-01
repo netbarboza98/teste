@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background: #141414;
+    background: url(../img/fundoheader.png);
+}
+
+.center{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+.clear{
+    clear: both;
+}
+header{
+    
+    padding: 24px 0;
+}
+header:hover{
+    background: black;
+    transition-duration: 1s;
+}
+.header-left{
+    float: left;
+}
+.menu-header{
+    font-size: 15px;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 30px;
+}
+.menu-header a{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: -5px;
+
+}
+.menu-header li{
+    margin-right: 15px;
+    display: inline-block;
+} 
+
+.header-right{
+    float: right;
+}
+
+.search {
+    display: inline-block;
+    
+    
+}
+
+.header-right i{
+    font-size: 20px;
+    color: white;
+    padding-right: 5px;
+    margin: 15px;
+}

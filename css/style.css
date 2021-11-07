@@ -5,27 +5,42 @@
 }
 body{
     background: #141414;
-    background: url(../img/fundoheader.png);
+}
+.header {
+    background: #141414;
+    background: url(../img/fundo\ para\ cabeçalho.png);
+    background-size: 100%;
+    width: 100%;
+    height: 700px;
+    
 }
 
 .center{
-    max-width: 1280px;
-    margin: 0 auto;
-    padding: 0 2%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: #14141434;
+   
+}
+.center:hover{
+    background:black;
+    transition: 1s;
 }
 .clear{
     clear: both;
 }
-header{
-    
-    padding: 24px 0;
-}
-header:hover{
-    background: black;
-    transition-duration: 1s;
+.logonetflix{
+    margin-left: 40px;
+    width: 115px;
+    height: 68px;
+    align-items: center;
 }
 .header-left{
-    float: left;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    
+   
 }
 .menu-header{
     font-size: 15px;
@@ -37,27 +52,219 @@ header:hover{
     color: white;
     text-decoration: none;
     position: relative;
-    top: -5px;
+    
 
 }
 .menu-header li{
     margin-right: 15px;
     display: inline-block;
 } 
-
 .header-right{
-    float: right;
+    width: 30%;
+    margin-right: 5.5%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
 }
-
+   
+.perfil{
+    border-radius: 5px;
+    
+    
+}
 .search {
     display: inline-block;
     
     
 }
-
 .header-right i{
     font-size: 20px;
     color: white;
     padding-right: 5px;
     margin: 15px;
+}
+.fundo-escurecido{
+    background: #14141434;
+}
+.suits{
+    height: 200px;
+    width: 475px;
+    margin-left: 40px;
+   padding-top: 50px;
+}
+h1{
+    margin-top: 20px;
+    width: 475px ;
+    margin-left: 40px;
+    flex-wrap: wrap;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+    color: #ffffff;
+    font-size:1.4vw;
+    text-shadow: 2px 2px 4px rgb(0 0 0 / 45%);
+}
+
+.assinf{
+    display: flex;
+}
+.assistir{
+    margin-top: 50px;
+    margin-left: 40px;
+    width: 130px;
+    height: 40px;
+    background: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.assistir:hover{
+    background: #d6d3d3;
+    cursor: pointer;
+}
+
+.bi-caret-right-fill{
+    font-size: 25px;
+    font-weight:100px;
+}
+.assistir p{
+   
+    font-weight: bold;
+    font-size: 16px;
+    
+}
+
+.mais-informaçoes{
+    margin-top: 50px;
+    margin-left: 10px;
+    background: #a19d9da1;
+    width: 200px;
+    height: 40px;
+    display: flex;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    ;
+}
+.mais-informaçoes:hover{
+    background:#7470708f;
+    cursor: pointer;
+}
+.bi-info-circle{
+    color: white;
+    font-size: 20px;
+    
+}
+    
+.mais-informaçoes p{
+    color: white;
+    font-size: 16px;
+    margin-left: 10px;
+   font-weight: bold;
+    opacity: 1.0;
+}
+
+
+h2{ 
+    color: #e5e5e5;
+    font-size: 1.4vw ;
+    margin-left: 40px;
+    padding-top: 70px;
+    
+}
+.Lançadosanopassado{
+    margin-top: -120px;
+    width: 1350px ; 
+    height: 200px;
+    overflow: hidden;
+    display: flex;
+    
+    
+}
+.imgslide,.imgslide1{
+    width: 250px;
+    height: 140px;   
+    align-items: center;
+    display: flex;
+   
+ 
+}
+
+.imgslide1{
+    margin-left: 40px;
+}
+ .imgslide1:hover{
+    margin-left: 40px;
+    width: 350px;
+    height: 196px;
+    transition: 1.3s;
+}
+.img1{
+    display: flex;
+}
+.navigation{
+    width: 1350px;
+   height: 200px;
+   position: absolute;
+    bottom: 20px;
+    align-items: center;
+    
+    
+
+
+}
+.barra{
+    width: 70px;
+    height: 200px;
+    font-size: 70px;
+    align-items: center;
+    opacity: 0.3;
+}
+.barra:hover{
+    opacity: 1.0;
+    transition: 0.3s;
+}
+.bi-chevron-compact-left, .bi-chevron-compact-right{
+    color: white;
+}
+input{
+    display:none;
+}
+.slides {
+    display: flex;
+    width: 200%;
+    height: 100%;
+}
+.slide {
+    width: 50%;
+    transition: 2.3s;
+    display: flex;
+    align-items: center;
+    position: relative;
+    
+
+}
+
+#slide1:checked ~ .s1{
+    margin-left: 0;
+}
+#slide2:checked ~ .s1{
+    margin-left: -50%;
+}
+.emalta{    
+   
+    width: 1350px ; 
+    height: 200px;
+    position: absolute;
+    overflow: hidden;
+}
+    
+#slide3:checked ~ .s2{
+    margin-left: 0;
+}
+#slide4:checked ~ .s2{
+    margin-left: -50%;
 }

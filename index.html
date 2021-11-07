@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Netflix</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="../netflix/css/style.css" type="text/css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../netflix (cópia 1)/img/icone-Netflix.ico" type="image/x-icon">
+  <title>Netflix</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="../netflix/css/style.css" type="text/css">
 
 </head>
 <body>
+ 
     <header>
+      <div class="header">
         <div class="center">    
             <div class="header-left">
-                <a href=""><img src="../netflix/img/logo-netflix.png" ></a>
+                <a href=""><img class="logonetflix" src="..//netflix/img/logo-net.png" ></a>
                 <div class="menu-header">
                     <ul>
                         <li><a href="">Início</a></li>
@@ -30,10 +33,83 @@
                 </div>
                 
                 <a href=""> <i class="bi-bell-fill"></i></a>
+                <a href=""><img class="perfil" src="../netflix/img/imagem.png"> </a>
                 
             </div>
             <div class="clear"></div>
         </div>
+        <div class="fundo-escurecido">
+          <img class="suits" src="../netflix/img/suits.jpg" >
+          <h1>Mesmo sem se formar e sem licença para advogar, um jovem brilhante impressiona um importante advogado e consegue uma cobiçada posição em sua firma.</h1>
+          <div class="assinf">
+            <div class= "assistir">
+              <i class="bi-caret-right-fill"></i>
+            <p> Assistir</p>
+            </div>
+            <div class="mais-informaçoes">
+              <i class="bi-info-circle"></i>
+              <p>Mais informações</p>
+            </div>
+          </div>
+          <h2>Lançados no ano passado</h2>
+        </div>
+      </div>
+
     </header>
+  
+    <main>
+        
+        <div class="Lançadosanopassado">
+          <div class="slides">
+             <input type="radio" name= slide1 id="slide1" checked>
+             <input type="radio" name= slide1 id="slide2">
+             <div class="slide s1" >
+              <div class="img1" >
+                <img class="imgslide1" src="../netflix/img/slide1.jpg">
+              </div>
+                <img class="imgslide" src="../netflix/img/slide2.jpg" >
+              <img class="imgslide" src="../netflix/img/slide3.png" >
+              <img class="imgslide" src="../netflix/img/slide4.jpg" >
+              <img class="imgslide" src="../netflix/img/slide5.jpg" >
+            </div>
+            <div class="slide">
+                  <img class="imgslide" src="../netflix/img/slide6.jpg" >
+                  <img class="imgslide" src="../netflix/img/slide7.jpg" >
+                  <img class="imgslide" src="../netflix/img/slide8.jpg" >
+                  <img class="imgslide" src="../netflix/img/slide9.jpg" >
+            </div>
+            <div class="navigation">
+              <label class="barra" for="slide1"><i class="bi-chevron-compact-left"></i></label>
+              <label class="barra" for="slide2"><i class="bi-chevron-compact-right"></i></label>
+            </div>
+          </div>
+         </div>
+        </div>
+        <h2> Em alta</h2>
+        <div class="emalta">
+          <div class="slides">
+            <input type="radio" name= slide2 id="slide3" checked>
+            <input type="radio" name= slide2 id="slide4">
+            <div class="slide s2" >
+            <img class="imgslide1"src="../netflix/img/slide1.jpg"  >
+            <img class="imgslide" src="../netflix/img/alta2.jpg" >
+            <img class="imgslide" src="../netflix/img/alta3.jpg" >
+            <img class="imgslide" src="../netflix/img/alta4.jpg" >
+            <img class="imgslide" src="../netflix/img/alta5.png" >
+          </div>
+          <div class="slide">
+                <img class="imgslide" src="../netflix/img/alta6.jpg" >
+                <img class="imgslide" src="../netflix/img/alta7.jpg" >
+                <img class="imgslide" src="../netflix/img/alta8.png" >
+                <img class="imgslide" src="../netflix/img/alta9.png" >
+                <img class="imgslide" src="../netflix/img/alta10.png" >
+          </div>
+        </div>
+         <div class="navigation">
+           <label  class="barra" for="slide3"><i class="bi-chevron-compact-left"></i></label>
+           <label  class="barra" for="slide4"><i class="bi-chevron-compact-right"></i></label>
+         </div>
+    </main>
+
 </body>
 </html>
